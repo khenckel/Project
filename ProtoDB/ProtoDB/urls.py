@@ -8,5 +8,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'ProtoDB.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
+    url(r'^databsemodels/', include('databasemodels.urls')),
     url(r'^admin/', include(admin.site.urls)),
+    
 )
